@@ -1,388 +1,291 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/image">
-    <script src="https://kit.fontawesome.com/38a811e776.js" crossorigin="anonymous"></script>
-    <title>Portfólio Marina Felix</title>
+  <meta charset="UTF-8">
+  <title>Marina Felix | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 
 <body>
-    <header>
-        <nav id="menu">
 
-            <ul>
-                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#projetos" class="link"><i class="fa-solid fa-diagram-project"></i></a></li>
-                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
+  <header class="header">
+    <nav class="nav">
+      <h2 class="logo">Marina Felix</h2>
+
+      <ul class="nav-links">
+        <li><a href="#sobre">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#formacoes">Formações</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <button id="theme-toggle" class="theme-btn">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Marina Felix — Full Stack Developer</h1>
+    <p>Desenvolvendo aplicações web modernas com JavaScript, React e Node.js.</p>
+  </section>
 
-            </ul>
+  <!-- SOBRE -->
+  <section id="sobre" class="about">
+
+    <div class="foto-container">
+      <img src="./assets/foto-profissional.jpeg" class="foto-perfil">
+    </div>
+
+    <div class="sobre-container">
+      <p class="sobre-texto">
+        Sou farmacêutica de formação e atualmente estou em transição de carreira para a área de tecnologia.
+        Venho construindo minha trajetória como desenvolvedora com foco em JavaScript, Node.js e React,
+        desenvolvendo projetos práticos e aprofundando meus conhecimentos diariamente.
+      </p>
+
+      <p class="sobre-texto">
+        Atualmente atuo como desenvolvedora freelancer, criando soluções utilizando HTML, CSS e JavaScript,
+        desenvolvendo aplicações modernas, responsivas e funcionais para web.
+      </p>
+
+
+    </div>
+
+  </section>
+
+  <!-- PROJETOS -->
+
+  <section id="projetos" class="projetos">
+    <h2 class="titulo-secao">Projetos</h2>
+
+    <div class="projetos-grid">
+
+      <!-- CARD 1 -->
+      <div class="projeto-card">
+        <div class="projeto-imagem-container">
+          <img src="./assets/projeto-conversor.png" class="projeto-img">
+        </div>
+
+        <h3 class="projeto-titulo">Conversor de Moedas</h3>
+
+        <p class="projeto-descricao">
+          Aplicação que converte moedas em tempo real.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech">HTML</span>
+          <span class="tech">CSS</span>
+          <span class="tech">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="projeto-card">
+        <div class="projeto-imagem-container">
+          <img src="./assets/img-dev-sorteio.jpg" class="projeto-img">
+        </div>
+
+        <h3 class="projeto-titulo">DevSorteio</h3>
+
+        <p class="projeto-descricao">
+          Sistema de sorteio utilizando método random.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech">HTML</span>
+          <span class="tech">CSS</span>
+          <span class="tech">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="projeto-card">
+        <div class="projeto-imagem-container">
+          <img src="./assets/img_projeto_jokenpo.jpg" class="projeto-img">
+        </div>
+
+        <h3 class="projeto-titulo">Jokenpo</h3>
+
+        <p class="projeto-descricao">
+          Jogo clássico Pedra, Papel e Tesoura.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech">HTML</span>
+          <span class="tech">CSS</span>
+          <span class="tech">JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--SKILLS-->
+
+  <section id="skills" class="skills">
+    <h2 class="titulo-secao">Skills</h2>
+
+    <div class="skills-grid">
+
+      <!-- FRONTEND -->
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <div class="skill-tags">
+
+          <div class="skill-item">
+            <i class="devicon-html5-plain colored"></i>
+            <span>HTML</span>
+          </div>
+
+          <div class="skill-item">
+            <i class="devicon-css3-plain colored"></i>
+            <span>CSS</span>
+          </div>
+
+          <div class="skill-item">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="skill-item">
+            <i class="devicon-react-original colored"></i>
+            <span>React</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- BACKEND -->
+      <div class="skill-card">
+        <h3>Backend</h3>
+        <div class="skill-tags">
+
+          <div class="skill-item">
+            <i class="devicon-nodejs-plain colored"></i>
+            <span>Node.js</span>
+          </div>
+
+          <div class="skill-item">
+            <i class="devicon-express-original"></i>
+            <span>Express</span>
+          </div>
+
+          <div class="skill-item">
+            <i class="devicon-prisma-original"></i>
+            <span>Prisma</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- DATABASE -->
+      <div class="skill-card">
+        <h3>Banco de Dados</h3>
+        <div class="skill-tags">
+
+          <div class="skill-item">
+            <i class="devicon-mongodb-plain colored"></i>
+            <span>MongoDB</span>
+          </div>
+
+          <div class="skill-item">
+            <i class="devicon-mysql-plain colored"></i>
+            <span>SQL</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--FORMAÇÕES-->
+  <section id="formacoes" class="formacoes">
+    <h2 class="titulo-secao">Formações</h2>
+
+    <div class="formacoes-container">
+
+      <!-- Formação 1 -->
+      <div class="formacao-card">
+        <h3>Farmácia</h3>
+        <span class="formacao-instituicao">Graduação</span>
+        <p class="formacao-descricao">
+          Formação na área da saúde com forte base em análise, responsabilidade
+          técnica e tomada de decisão — habilidades que hoje aplico na tecnologia.
+        </p>
+      </div>
+
+      <!-- Formação 2 -->
+      <div class="formacao-card">
+        <h3>Prescrição Farmacêutica e Farmácia Clinica</h3>
+        <span class="formacao-instituicao">Pós Graduação</span>
+        <p class="formacao-descricao">
+          Fortalecendo minha capacidade analítica e visão
+          sistêmica — habilidades que hoje aplico na tecnologia.
+        </p>
+      </div>
+
+      <!-- Formação 3 -->
+      <div class="formacao-card">
+        <h3>Farmácia Hospitalar</h3>
+        <span class="formacao-instituicao">Pós Graduação</span>
+        <p class="formacao-descricao">
+          Fortalecendo minha visão sistêmica, organização de processos e
+          capacidade analítica — competências que aplico no desenvolvimento de software.
+        </p>
+      </div>
+
+      <!-- Formação 4 -->
+      <div class="formacao-card">
+        <h3>Desenvolvimento Full Stack</h3>
+        <span class="formacao-instituicao">Curso Profissionalizante DevClub</span>
+        <p class="formacao-descricao">
+          Formação técnica em Desenvolvimento Full Stack pelo DevClub, com foco em aplicações modernas e escaláveis.
+          O curso abrange HTML, CSS, JavaScript, Node.js, React, desenvolvimento Mobile e TypeScript,
+          sempre com projetos práticos para consolidar o aprendizado.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contact">
+    <h2>Contato</h2>
+    <p>Email: maarinafelixf@gmail.com</p>
+  </section>
 
-
-        </nav>
-    </header>
-
-    <main>
-        <section id="ficha">
-            <img src="./assets/Foto formal Perfil.jpeg" alt="" class="foto">
-            <h1>Marina Felix</h1>
-            <p> Sou desenvolvedora Full Stack em formação, com foco em Engenharia de Software. 
-                Tenho experiência com HTML, CSS e JavaScript, e estudos contínuos em back-end e boas práticas de desenvolvimento. Venho da área da saúde, o que me trouxe uma visão analítica, responsabilidade e foco em qualidade. Busco oportunidades para evoluir como engenheira de software e contribuir em projetos desafiadores.
-            </p>
-            <div id="social">
-                <a href="https://www.linkedin.com/in/marinafelixf/" targed="_blank" rel="nofollow">
-                    <i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/MariinaFelix" targed="_blank" rel="nofollow"><i
-                        class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/maarinafelix/" targed="_blank" rel="nofollow"><i
-                        class="fa-brands fa-square-instagram"></i></a>
-                <a href="https://x.com/MarinaFelix__" targed="_blank" rel="nofollow"><i
-                        class="fa-brands fa-x-twitter"></i></a>
-
-            </div>
-        </section>
-
-
-        <section id="detalhes">
-
-            <article id="skills">
-                <h2><i class="fa-solid fa-brain"></i> Minhas skills</h2>
-
-                <div id="skill-container">
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i> HTML5
-
-                            </span>
-
-                            <span class="porcent">
-                                90%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 90%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i> CSS3
-
-                            </span>
-
-                            <span class="porcent">
-                                80%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 80%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i> JavaScript
-
-                            </span>
-
-                            <span class="porcent">
-                                75%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 75%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i> Git&GitHub
-
-                            </span>
-
-                            <span class="porcent">
-                                85%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 85%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i> Python
-
-                            </span>
-
-                            <span class="porcent">
-                                75%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 75%;"></div>
-                        </div>
-                    </div>
-
-                    
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Comunicação
-
-                            </span>
-
-                            <span class="porcent">
-                                95%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 95%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                               <i class="fa-solid fa-person-rays"></i> Trabalho em equipe
-
-                            </span>
-
-                            <span class="porcent">
-                                95%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 95%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Adaptabilidade
-
-                            </span>
-
-                            <span class="porcent">
-                                90%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 90%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Liderança
-
-                            </span>
-
-                            <span class="porcent">
-                                95%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 95%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Gestão de Tempo
-
-                            </span>
-
-                            <span class="porcent">
-                                100%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 100%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Resolução de problemas
-
-                            </span>
-
-                            <span class="porcent">
-                                98%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 98%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i> Empatia e sensibilidade clínica
-
-                            </span>
-
-                            <span class="porcent">
-                                98%
-                            </span>
-
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 98%;"></div>
-                        </div>
-                    </div>
-                
-                </div>
-
-
-            </article> <!-- FIM ARTICLE SKILLS -->
-
-
-            <article id="formacao">
-                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
-
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo"> 2011 - 2017</p>
-                        <h3 class="instituicao"> Faculdade Santa Maria</h3>
-                        <p class="titulacao">Bacharelado em Farmácia</p>
-                    </div>
-                
-
-                  
-                    <div class="curso">
-                        <p class="periodo"> 2017 - 2019</p>
-                        <h3 class="instituicao">Instituto de Ciência e Tecnologia - ICTQ</h3>
-                        <p class="titulacao">Pós Graduação em Prescrição Farmacêutica e Farmácia Clínica</p>
-                    </div>
-                
-
-                  
-                    <div class="curso">
-                        <p class="periodo"> 2024 - 2026</p>
-                        <h3 class="instituicao"> Faculdade Anhanguera - São José dos Campos</h3>
-                        <p class="titulacao">Pós Graduação em Farmácia Hospitalar EAD</p>
-                    </div>
-                
-
-                
-                    <div class="curso">
-                        <p class="periodo"> 2025 - 2026</p>
-                        <h3 class="instituicao"> DevClub</h3>
-                        <p class="titulacao">FullStack Developer</p>
-                    </div>
-                </div>
-                
-                </article> <!-- FIM ARTICLE FORMAÇÃO -->
-
-            <article id="projetos">
-                <h2><i class="fa-solid fa-diagram-project"></i> Projetos</h2>
-
-                <div id="projeto-container">
-                    <div class="projeto"> <!--PROJETO 01-->
-                        <img src="./assets/PROJETO-CONVERSOR-DE-MOEDAS.jpg" alt="Projeto1" class="foto">
-                    
-                        <div class="projeto-info">
-                        <p class="periodo">2025</p>
-                        <h3 class="titulo">Projeto de conversor de moedas</h3>
-                        <p>Projeto construido para treinar layout, display em CSS3</p>
-                        <!-- <details class="descricao"> -->
-                            <!-- <summary>Saiba mais...</summary> -->
-                            <p></p>
-                        </details>
-
-                    </div>
-                    </div>
-
-                    <div id="projeto-container">
-                    <div class="projeto"> <!--PROJETO 02-->
-                        <img src="./assets/Captura DevSorteio.jpg" alt="Projeto2" class="foto">
-                    
-                        <div class="projeto-info">
-                        <p class="periodo">2025</p>
-                        <h3 class="titulo">Projeto de Sorteio de Números</h3>
-                        <p>Projeto construido para treinar if&else JavaScript</p>
-                        <!-- <details class="descricao"> -->
-                            <!-- <summary>Saiba mais...</summary> -->
-                            <p></p>
-                        </details>
-
-                    </div>
-                    </div>
-
-                    <div id="projeto-container">
-                    <div class="projeto"> <!--PROJETO 03-->
-                        <img src="./assets/img_projeto_jokenpo.jpg" alt="Projeto3" class="foto">
-                    
-                        <div class="projeto-info">
-                        <p class="periodo">2025</p>
-                        <h3 class="titulo">Projeto de um game Jokenpô</h3>
-                        <p>Projeto construido para treinar funções, if&else no JavaScript</p>
-                        <!-- <details class="descricao"> -->
-                            <!-- <summary>Saiba mais...</summary> -->
-                            <p></p>
-                        </details>
-
-                    </div>
-                    </div>
-                </div>
-
-            </article> <!-- FIM ARTICLE PROJETOS -->
-
-        </section>
-
-
-    </main>
-
-    <footer>
-        &#x00A9; 2026 Marina Felix Desenvolvedora FullStack.
-        <br>
-                        Todos os direitos reservados. 
-
-
-    </footer>
-
-<script src="./script.js"></script>  
 </body>
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <h3>Marina Felix</h3>
+      <p>Full Stack Developer</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://github.com/MariinaFelix" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/marinafelixf/" target="_blank">LinkedIn</a>
+      <a href="mailto:maarinafelixf@gmail.com">Email</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Marina Felix. Todos os direitos reservados.
+  </div>
+
+</footer>
+<script src="./script.js"></script>
 
 </html>
