@@ -8,7 +8,7 @@ tsParticles.load("tsparticles", {
       value: 50
     },
     color: {
-      value: ["#a855f7", "#ec4899", "#06b6d4"]
+      value: ["#820eee", "#ca0065", "#08c9eb"]
     },
     shape: {
       type: "circle"
