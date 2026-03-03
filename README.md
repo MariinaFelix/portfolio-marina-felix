@@ -1,7 +1,7 @@
 # 💜 Portfólio - Marina Felix
 
 Bem-vinda(o) ao meu portfólio profissional 🚀  
-Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades como desenvolvedora Front-End, destacando meus projetos, conhecimentos e evolução na área de tecnologia.
+Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades como desenvolvedora FullStack, destacando meus projetos, conhecimentos e evolução na área de tecnologia.
 
 ---
 
@@ -55,7 +55,6 @@ Este projeto também marcou uma evolução no meu cuidado com:
 
 - Melhorar animações
 - Adicionar novos projetos
-- Implementar modo claro/escuro
 - Melhorar acessibilidade
 
 ---
