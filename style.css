@@ -1,3 +1,10 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
 html, body {
   height: 100%;
   margin: 0;
@@ -45,6 +52,16 @@ body.light-mode::after {
   opacity: 0.1;
 }
 
+
+/*SOBRE-CONTAINER*/
+
+.sobre-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 10%;
+}
 
 /* HERO */
 
