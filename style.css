@@ -61,7 +61,7 @@ body.light-mode::after {
   justify-content: space-between;
   gap: 40px;
   padding: 60px 10%;
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
