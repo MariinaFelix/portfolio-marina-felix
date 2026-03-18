@@ -58,9 +58,11 @@ body.light-mode::after {
 .sobre-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 60px;
+  justify-content: space-between;
+  gap: 40px;
   padding: 60px 10%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 /* HERO */
