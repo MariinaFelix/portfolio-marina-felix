@@ -53,27 +53,27 @@ body.light-mode::after {
 }
 
 
-/*SOBRE-CONTAINER*/
-
-.sobre-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  padding: 60px 10%;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
 /* HERO */
 
 .hero {
   padding: 100px 20px;
   text-align: center;
+
 }
 
 .hero p {
   color: #8b949e;
+}
+
+/*SOBRE-CONTAINER*/
+
+.sobre-container {
+  
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 70px 10%;
+  margin: 70 auto;
 }
 
 /* ABOUT */
@@ -95,7 +95,7 @@ body.light-mode::after {
 /* FOTO CIRCULAR */
 
 .foto-container {
-  width: 500px;
+  width: 900px;
   aspect-ratio: 1 / 1;   
   border-radius: 50%;
   overflow: hidden;
@@ -146,6 +146,7 @@ body.light-mode::after {
   overflow: hidden;
   border-radius: 12px;
   margin-bottom: 15px;
+  
 }
 
 /* TEXTO */
